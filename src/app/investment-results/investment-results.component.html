@@ -40,7 +40,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let result of results; track: result.year">
+            <tr *ngFor="let result of results;">
                 <td>{{result.year}}</td>
                 <td>{{result.valueEndOfYear | currency}}</td>
                 <td>{{result.interest | currency}}</td>
